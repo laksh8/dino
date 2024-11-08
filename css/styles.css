@@ -1,0 +1,10 @@
+#main-canvas {
+    border: 1px solid grey;
+}
+
+#frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

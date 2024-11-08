@@ -1,5 +1,10 @@
-const board = document.querySelector('#main-canvas');
+//Game Board
 
-board.width = 400;
-board.height = 300;
-board.style = "border: 1px solid black;";
+function prepareBoard() {
+    const board = document.querySelector('#main-canvas');
+
+    board.width = 900;
+    board.height = 300;
+}
+
+prepareBoard();
